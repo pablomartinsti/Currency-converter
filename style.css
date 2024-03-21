@@ -5,24 +5,29 @@
     font-family: 'roboto',sans-serif;
     outline: none;
 }
-body{
-    background-color: #8a51fc;
-}
 
-.logo-header{
-    width: 300px;
-    height: 300px;
-    margin: 10px auto;
-    display: block;
+.img-fundo{
+    height:100vw ;
+    width: 100vw;
+    z-index: -1;
+    position: fixed;
+    top: 0;
 
 }
+
 main{
-    width: 375px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.menu{
+    margin-top: 5%;
+    width: 400px;
     background-color:#F4F4F4;
-    margin: 10px auto 40px;
     border-radius: 20px;
     padding: 44px 24px 23px;
-
+    height: 730px;
 }
 label{
     color: #777777;
