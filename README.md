@@ -10,7 +10,7 @@
   <br>
   <br>
   <br>
-  <img src =https://github.com/pablomartinsti/JS/blob/main/assets/Convertor%20de%20Moedas.png
+  <img src =https://github.com/pablomartinsti/Currency-converter/blob/main/assets/Currency-Converter.png
 </h4>
 
 
