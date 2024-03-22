@@ -99,3 +99,37 @@ font-size: 14px;
 
 }
 
+    
+@media screen and (max-width: 900px){
+    .menu{
+        width: 280px;
+        height: 625px;
+        margin-top: 30%;
+        padding: 20px;
+
+    }
+    select, input {
+        height: 40px;
+        margin-bottom: 12px;
+    }
+    
+    button{
+        height: 40px;
+    }
+
+    section{
+    margin-top: 30px;
+    }
+
+    .img-fundo{
+        height: 222vw;
+    }
+     
+@media screen and (max-width: 380px){
+    .menu{
+        margin-top: 5%;
+    }
+}
+
+}
+
