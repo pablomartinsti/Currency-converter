@@ -13,8 +13,15 @@ function convertValues() {
     const eurotoday = 5.40
     const libratoday = 6.29
     const ienetoday = 30.50
-    const bitcointoday = 338454
-    const realtoday = 1
+    const bitcointoday = 338454.0
+    const realtoday = 1.0
+
+    
+  
+    currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
+        style: "currency",
+        currency: "BRL"
+    }).format(inputCurrencyValue)
 
     if (selectcurrency.value == "Bitcoin") {
         currencyValueToConvert.innerHTML = new Intl.NumberFormat("de-DE", {
