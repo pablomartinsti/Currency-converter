@@ -15,9 +15,15 @@
 
 }
 
-main{
+body{
+
+    background: url(./assets/screen-background.png);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
    
 }
 
@@ -26,8 +32,8 @@ main{
     width: 400px;
     background-color:#F4F4F4;
     border-radius: 20px;
-    padding: 44px 24px 23px;
-    height: 730px;
+    padding: 10px 35px;
+    height: 700px;
 }
 label{
     color: #777777;
