@@ -80,7 +80,7 @@ const convertValues = async () => {
     }
 
     if (selectcurrency.value == "Brasil") {
-        currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
+        currencyValueToConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
         }).format(inputCurrencyValue)
@@ -115,7 +115,7 @@ const convertValues = async () => {
         }).format(total / eurotoday)
     }
 
-    if (currencySelect.value === "Brasil") {
+    if (currencySelect.value == "Brasil") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("pt-BR", {
             style: "currency",
             currency: "BRL"
