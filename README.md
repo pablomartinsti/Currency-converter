@@ -1,6 +1,6 @@
 <h1> 💰   Currency Converter   💰</h1>
 
-<h4>Esse foi um projeto em que criei um coversor de moedas.</h4>
+<h4>Esse foi um projeto em que criei um conversor de moedas.</h4>
 <h4>Onde comecei a usa a linguagem de programação 
   <br>
   <br>
